@@ -1,0 +1,14 @@
+{
+  "name": "kayleengpt13",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "KayleenGPT13 native intelligence runtime",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "check": "node --check app.js && node --check netlify/functions/_core/compute-router.js && node --check netlify/functions/_core/compute-adapters/classical.js && node --check netlify/functions/_core/compute-adapters/ibm-quantum.js && node --check netlify/functions/_core/compute-adapters/cortical-cl1.js",
+    "test": "npm run check"
+  }
+}
