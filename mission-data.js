@@ -3,6 +3,11 @@ export const projects=[
 {name:"Matcha Manita",description:"Dispensary storefront and compliance integration research",url:"https://kayleenllc.netlify.app"},
 {name:"SonoraPort",description:"Banking, payments, cross-border infrastructure",url:"https://sonoraportaiholdingllc.com"}];
 export const providers=[
+{name:"JPMorgan Payments Developer",sector:"Banking",region:"US",url:"https://developer.payments.jpmorgan.com/"},
+{name:"Banco Central do Brasil Pix API",sector:"Payments",region:"Brazil",url:"https://github.com/bacen/pix-api"},
+{name:"Dutchie POS API",sector:"Dispensary",region:"US",url:"https://api.pos.dutchie.com/swagger/index.html"},
+{name:"PayShap",sector:"Payments",region:"South Africa",url:"https://www.payshap.co.za/"},
+{name:"Netlify Deploy API",sector:"Infrastructure",region:"Global",url:"https://docs.netlify.com/deploy/create-deploys/"},
 {name:"Dutchie",sector:"Dispensary",region:"US",url:"https://support.dutchie.com/hc/en-us/articles/27660267271187-Dutchie-POS-API-key-request-process-for-third-party-integrations"},
 {name:"Cova",sector:"Dispensary",region:"US/Canada",url:"https://api.covasoft.net/Documentation"},
 {name:"BLAZE",sector:"Dispensary",region:"US",url:"https://apidocs.blaze.me/intro"},
